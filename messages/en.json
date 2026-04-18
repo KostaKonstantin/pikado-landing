@@ -146,6 +146,12 @@
       }
     ]
   },
+  "finalCta": {
+    "headline": "Start Using Pikado Today",
+    "subtext": "Join darts clubs already managing leagues with Pikado.",
+    "cta": "Open Pikado App",
+    "secondary_cta": "Schedule a Demo"
+  },
   "footer": {
     "copyright": "© 2024 Pikado. All rights reserved.",
     "privacy": "Privacy",

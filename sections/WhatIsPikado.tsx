@@ -1,5 +1,8 @@
+"use client";
+
 import { useTranslations } from "next-intl";
 import Container from "@/components/Container";
+import { ScrollReveal, StaggerReveal, StaggerItem } from "@/components/motion/ScrollReveal";
 
 export default function WhatIsPikado() {
   const t = useTranslations("whatIsPikado");
@@ -10,30 +13,29 @@ export default function WhatIsPikado() {
       <Container>
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left: text */}
-          <div>
+          <ScrollReveal>
             <h2 className="text-[32px] md:text-[40px] font-bold text-white leading-tight tracking-tight mb-6">
               {t("headline")}
             </h2>
             <p className="text-[18px] text-text-secondary leading-relaxed">
               {t("description")}
             </p>
-          </div>
+          </ScrollReveal>
 
           {/* Right: benefit cards */}
-          <div className="flex flex-col gap-4">
+          <StaggerReveal className="flex flex-col gap-4">
             {benefits.map((b) => (
-              <div
-                key={b.title}
-                className="flex items-start gap-4 p-5 rounded-[8px] border border-border bg-[#0d0d0d]"
-              >
-                <span className="text-2xl leading-none shrink-0">{b.icon}</span>
-                <div>
-                  <p className="text-[15px] font-semibold text-white mb-1">{b.title}</p>
-                  <p className="text-[14px] text-text-secondary">{b.description}</p>
+              <StaggerItem key={b.title}>
+                <div className="flex items-start gap-4 p-5 rounded-[8px] border border-border bg-[#0d0d0d]">
+                  <span className="text-2xl leading-none shrink-0">{b.icon}</span>
+                  <div>
+                    <p className="text-[15px] font-semibold text-white mb-1">{b.title}</p>
+                    <p className="text-[14px] text-text-secondary">{b.description}</p>
+                  </div>
                 </div>
-              </div>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerReveal>
         </div>
       </Container>
     </section>

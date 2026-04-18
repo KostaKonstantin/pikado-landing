@@ -146,6 +146,12 @@
       }
     ]
   },
+  "finalCta": {
+    "headline": "Počni Koristiti Pikado Danas",
+    "subtext": "Pridruži se pikado klubovima koji već upravljaju ligama sa Pikado.",
+    "cta": "Otvori Pikado Aplikaciju",
+    "secondary_cta": "Zakaži Demo"
+  },
   "footer": {
     "copyright": "© 2024 Pikado. Sva prava zadržana.",
     "privacy": "Privatnost",

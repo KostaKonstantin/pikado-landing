@@ -1,6 +1,9 @@
+"use client";
+
 import { useTranslations } from "next-intl";
+import { motion } from "framer-motion";
 import Container from "@/components/Container";
-import BenefitCard from "@/components/BenefitCard";
+import { ScrollReveal, StaggerReveal, StaggerItem } from "@/components/motion/ScrollReveal";
 
 export default function SystemOverview() {
   const t = useTranslations("systemOverview");
@@ -9,8 +12,7 @@ export default function SystemOverview() {
   return (
     <section className="bg-dark-bg py-24 border-t border-border">
       <Container>
-        {/* Top: accent label */}
-        <div className="mb-12">
+        <ScrollReveal className="mb-12">
           <span className="inline-block text-[13px] font-medium text-primary uppercase tracking-widest mb-4">
             Platform
           </span>
@@ -20,19 +22,25 @@ export default function SystemOverview() {
           <p className="text-[18px] text-text-secondary max-w-120">
             {t("subheadline")}
           </p>
-        </div>
+        </ScrollReveal>
 
-        {/* Benefit cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <StaggerReveal className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {benefits.map((b) => (
-            <BenefitCard
-              key={b.title}
-              icon={b.icon}
-              title={b.title}
-              description={b.description}
-            />
+            <StaggerItem key={b.title}>
+              <motion.div
+                className="flex flex-col gap-3 p-6 rounded-[8px] border border-border bg-[#0d0d0d] cursor-default"
+                whileHover={{ y: -4, borderColor: "#2a2a2a" }}
+                transition={{ duration: 0.2 }}
+              >
+                <div className="w-10 h-10 rounded-[8px] bg-[#1a1a2e] flex items-center justify-center text-lg">
+                  {b.icon}
+                </div>
+                <h3 className="text-[16px] font-semibold text-white">{b.title}</h3>
+                <p className="text-[14px] text-text-secondary leading-relaxed">{b.description}</p>
+              </motion.div>
+            </StaggerItem>
           ))}
-        </div>
+        </StaggerReveal>
       </Container>
     </section>
   );
