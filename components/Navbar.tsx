@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
 import { useRouter, usePathname } from "next/navigation";
 import Container from "./Container";
@@ -34,8 +35,15 @@ export default function Navbar() {
       <Container>
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href={`/${locale}`} className="text-xl font-bold text-[#3d5afe] tracking-tight">
-            Pikado
+          <Link href={`/${locale}`} className="flex items-center gap-2.5">
+            <Image
+              src="/pikado-mono.svg"
+              alt="Pikado"
+              width={32}
+              height={32}
+              className="rounded-lg"
+            />
+            <span className="text-lg font-semibold text-white tracking-tight">Pikado</span>
           </Link>
 
           {/* Desktop nav */}

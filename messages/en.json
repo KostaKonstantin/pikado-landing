@@ -12,6 +12,128 @@
     "cta": "Open Pikado App",
     "secondary_cta": "Watch Demo"
   },
+  "whatIsPikado": {
+    "headline": "What is Pikado?",
+    "description": "A complete SaaS platform built for darts clubs. Manage leagues, tournaments, and players all in one place. Track matches in real-time. Display results on club screens. Organize your entire season.",
+    "benefits": [
+      { "icon": "🎯", "title": "All-in-one", "description": "Leagues, tournaments, players — one platform." },
+      { "icon": "⚡", "title": "Real-time", "description": "Live match tracking and instant score updates." },
+      { "icon": "📺", "title": "Club screens", "description": "Display results on TVs and public pages." }
+    ]
+  },
+  "features": {
+    "headline": "Everything Your Club Needs",
+    "subheadline": "Purpose-built tools for managing darts leagues at any scale.",
+    "items": [
+      {
+        "icon": "🏆",
+        "title": "League Management",
+        "description": "Create leagues with automatic scheduling. Round-robin format, circle method, dynamic sessions."
+      },
+      {
+        "icon": "👤",
+        "title": "Player Tracking",
+        "description": "Manage players, track statistics, match history, and opponents."
+      },
+      {
+        "icon": "🥊",
+        "title": "Tournament System",
+        "description": "Single-elimination brackets. Real-time match tracking. Live updates."
+      },
+      {
+        "icon": "📺",
+        "title": "Public Screens & QR",
+        "description": "Display live results on club TVs. Share with QR code. Public pages for spectators."
+      },
+      {
+        "icon": "⚡",
+        "title": "Real-time Updates",
+        "description": "WebSocket-powered live match tracking. Instant score updates across all views."
+      },
+      {
+        "icon": "📄",
+        "title": "PDF Export",
+        "description": "Export tables, schedules, and brackets as PDF."
+      }
+    ]
+  },
+  "howItWorks": {
+    "headline": "Up and Running in Minutes",
+    "subheadline": "No training required. No complex setup. Just start managing your league.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Create Your Club",
+        "description": "Set up your club in seconds."
+      },
+      {
+        "step": 2,
+        "title": "Add Players",
+        "description": "Invite players and manage rosters."
+      },
+      {
+        "step": 3,
+        "title": "Create a League or Tournament",
+        "description": "Choose format, set rules, let Pikado generate the schedule."
+      },
+      {
+        "step": 4,
+        "title": "Track Matches Live",
+        "description": "Update scores in real-time. Display on screens. Archive results."
+      }
+    ]
+  },
+  "systemOverview": {
+    "headline": "Built for Professional Club Management",
+    "subheadline": "Pikado handles the complexity so clubs can focus on the game.",
+    "benefits": [
+      {
+        "icon": "✓",
+        "title": "Eliminates Chaos",
+        "description": "No more spreadsheets. No more manual scheduling. Everything is organized."
+      },
+      {
+        "icon": "⏱",
+        "title": "Saves Time",
+        "description": "Automate league scheduling, scoring, and result publication."
+      },
+      {
+        "icon": "🏅",
+        "title": "Professionalizes Your Club",
+        "description": "Modern tools that make your club look serious."
+      }
+    ]
+  },
+  "realTimeDemo": {
+    "headline": "Watch Matches Come Alive",
+    "description": "Live match tracking with instant updates. Teams, players, and spectators see results the moment they happen.",
+    "features": [
+      "Live match dashboard",
+      "Public result pages via QR",
+      "TV leaderboard display",
+      "Instant score sync"
+    ]
+  },
+  "trustSection": {
+    "headline": "Why Clubs Choose Pikado",
+    "cards": [
+      {
+        "icon": "✦",
+        "title": "Modern Interface",
+        "description": "Clean, intuitive design. No learning curve."
+      },
+      {
+        "icon": "🔒",
+        "title": "Reliable",
+        "description": "Real-time updates. Always available. Built for scale."
+      },
+      {
+        "icon": "⚙",
+        "title": "Flexible",
+        "description": "Works with your club's rules. Customizable for any league format."
+      }
+    ]
+  },
   "footer": {
     "copyright": "© 2024 Pikado. All rights reserved.",
     "privacy": "Privacy",

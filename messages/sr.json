@@ -12,6 +12,128 @@
     "cta": "Otvori Pikado Aplikaciju",
     "secondary_cta": "Pogledaj Demo"
   },
+  "whatIsPikado": {
+    "headline": "Šta je Pikado?",
+    "description": "Kompletna SaaS platforma za pikado klubove. Upravljaj ligama, turnirima i igračima na jednom mestu. Prati mečeve u realnom vremenu. Prikaži rezultate na ekranima kluba. Organizuj celu sezonu.",
+    "benefits": [
+      { "icon": "🎯", "title": "Sve na jednom mestu", "description": "Lige, turniri, igrači — jedna platforma." },
+      { "icon": "⚡", "title": "U realnom vremenu", "description": "Live praćenje mečeva i trenutna ažuriranja." },
+      { "icon": "📺", "title": "Ekrani kluba", "description": "Prikaži rezultate na TV-ima i javnim stranicama." }
+    ]
+  },
+  "features": {
+    "headline": "Sve što tvoj klub treba",
+    "subheadline": "Alati napravljeni za upravljanje pikado ligama bilo koje veličine.",
+    "items": [
+      {
+        "icon": "🏆",
+        "title": "Upravljanje ligom",
+        "description": "Kreiraj lige sa automatskim rasporedom. Round-robin format, circle metod, dinamičke sesije."
+      },
+      {
+        "icon": "👤",
+        "title": "Praćenje igrača",
+        "description": "Upravljaj igračima, prati statistiku, istoriju mečeva i protivnike."
+      },
+      {
+        "icon": "🥊",
+        "title": "Turnirski sistem",
+        "description": "Single-elimination zagradnjanje. Praćenje mečeva u realnom vremenu. Live ažuriranja."
+      },
+      {
+        "icon": "📺",
+        "title": "Javni ekrani i QR",
+        "description": "Prikaži live rezultate na TV-ima kluba. Deli preko QR koda. Javne stranice za gledaoce."
+      },
+      {
+        "icon": "⚡",
+        "title": "Ažuriranja u realnom vremenu",
+        "description": "WebSocket-powered live praćenje mečeva. Trenutna ažuriranja rezultata na svim pogledima."
+      },
+      {
+        "icon": "📄",
+        "title": "PDF izvoz",
+        "description": "Izvezi tabele, rasporede i zagrade kao PDF."
+      }
+    ]
+  },
+  "howItWorks": {
+    "headline": "Spreman za rad za nekoliko minuta",
+    "subheadline": "Bez obuke. Bez složenog podešavanja. Samo počni da upravljaš ligom.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Kreiraj klub",
+        "description": "Postavi svoj klub u nekoliko sekundi."
+      },
+      {
+        "step": 2,
+        "title": "Dodaj igrače",
+        "description": "Pozovi igrače i upravljaj timovima."
+      },
+      {
+        "step": 3,
+        "title": "Kreiraj ligu ili turnir",
+        "description": "Odaberi format, postavi pravila, pusti Pikado da generiše raspored."
+      },
+      {
+        "step": 4,
+        "title": "Prati mečeve uživo",
+        "description": "Ažuriraj rezultate u realnom vremenu. Prikaži na ekranima. Arhiviraj rezultate."
+      }
+    ]
+  },
+  "systemOverview": {
+    "headline": "Napravljen za profesionalno upravljanje klubom",
+    "subheadline": "Pikado se brine o složenosti kako bi klubovi mogli da se fokusiraju na igru.",
+    "benefits": [
+      {
+        "icon": "✓",
+        "title": "Eliminiše haos",
+        "description": "Nema više tabela. Nema više ručnog planiranja. Sve je organizovano."
+      },
+      {
+        "icon": "⏱",
+        "title": "Štedi vreme",
+        "description": "Automatizuj raspored lige, bodovanje i publikovanje rezultata."
+      },
+      {
+        "icon": "🏅",
+        "title": "Profesionalizuje klub",
+        "description": "Moderni alati koji čine tvoj klub ozbiljnim."
+      }
+    ]
+  },
+  "realTimeDemo": {
+    "headline": "Vidi kako se mečevi događaju uživo",
+    "description": "Live praćenje mečeva sa trenutnim ažuriranjima. Timovi, igrači i gledaoci vide rezultate čim se dogode.",
+    "features": [
+      "Live dashboard mečeva",
+      "Javne stranice putem QR-a",
+      "Prikaz lestvice na TV-u",
+      "Trenutna sinhronizacija rezultata"
+    ]
+  },
+  "trustSection": {
+    "headline": "Zašto klubovi biraju Pikado",
+    "cards": [
+      {
+        "icon": "✦",
+        "title": "Moderan interfejs",
+        "description": "Čist, intuitivan dizajn. Nema krive učenja."
+      },
+      {
+        "icon": "🔒",
+        "title": "Pouzdan",
+        "description": "Ažuriranja u realnom vremenu. Uvek dostupan. Izgrađen za skalabilnost."
+      },
+      {
+        "icon": "⚙",
+        "title": "Fleksibilan",
+        "description": "Radi sa pravilima tvog kluba. Prilagodljiv za bilo koji format lige."
+      }
+    ]
+  },
   "footer": {
     "copyright": "© 2024 Pikado. Sva prava zadržana.",
     "privacy": "Privatnost",
