@@ -7,20 +7,20 @@ export default function Footer() {
   const locale = useLocale();
 
   return (
-    <footer className="bg-[#0a0a0a] border-t border-[#1f1f1f] py-8">
+    <footer className="bg-dark-bg border-t border-border py-8">
       <Container>
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-          <span className="text-sm text-[#a0a0a0]">{t("copyright")}</span>
+          <span className="text-sm text-text-secondary">{t("copyright")}</span>
           <div className="flex items-center gap-6">
             <Link
               href={`/${locale}/privacy`}
-              className="text-sm text-[#a0a0a0] hover:text-white transition-colors duration-150"
+              className="text-sm text-text-secondary hover:text-white transition-colors duration-150"
             >
               {t("privacy")}
             </Link>
             <Link
               href={`/${locale}/terms`}
-              className="text-sm text-[#a0a0a0] hover:text-white transition-colors duration-150"
+              className="text-sm text-text-secondary hover:text-white transition-colors duration-150"
             >
               {t("terms")}
             </Link>

@@ -108,10 +108,22 @@
     "headline": "Vidi kako se mečevi događaju uživo",
     "description": "Live praćenje mečeva sa trenutnim ažuriranjima. Timovi, igrači i gledaoci vide rezultate čim se dogode.",
     "features": [
-      "Live dashboard mečeva",
-      "Javne stranice putem QR-a",
-      "Prikaz lestvice na TV-u",
-      "Trenutna sinhronizacija rezultata"
+      {
+        "title": "Live Dashboard Mečeva",
+        "description": "Ažuriranja rezultata u realnom vremenu tokom mečeva"
+      },
+      {
+        "title": "Javna Stranica Rezultata",
+        "description": "Deli sa gledaocima i protivnicima"
+      },
+      {
+        "title": "Prikaz na TV-u Kluba",
+        "description": "Prikaži live tabelu na ekranima kluba"
+      },
+      {
+        "title": "QR Kod Pristup",
+        "description": "Instant pristup rezultatima mečeva preko QR koda"
+      }
     ]
   },
   "trustSection": {

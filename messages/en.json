@@ -108,10 +108,22 @@
     "headline": "Watch Matches Come Alive",
     "description": "Live match tracking with instant updates. Teams, players, and spectators see results the moment they happen.",
     "features": [
-      "Live match dashboard",
-      "Public result pages via QR",
-      "TV leaderboard display",
-      "Instant score sync"
+      {
+        "title": "Live Match Dashboard",
+        "description": "Real-time score updates as matches progress"
+      },
+      {
+        "title": "Public Results Page",
+        "description": "Share with spectators and opponents"
+      },
+      {
+        "title": "Club TV Display",
+        "description": "Show live leaderboard on club screens"
+      },
+      {
+        "title": "QR Code Access",
+        "description": "Instant access to match results via QR"
+      }
     ]
   },
   "trustSection": {

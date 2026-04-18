@@ -7,17 +7,17 @@ export default function SystemOverview() {
   const benefits = t.raw("benefits") as Array<{ icon: string; title: string; description: string }>;
 
   return (
-    <section className="bg-[#0a0a0a] py-24 border-t border-[#1f1f1f]">
+    <section className="bg-dark-bg py-24 border-t border-border">
       <Container>
         {/* Top: accent label */}
         <div className="mb-12">
-          <span className="inline-block text-[13px] font-medium text-[#3d5afe] uppercase tracking-widest mb-4">
+          <span className="inline-block text-[13px] font-medium text-primary uppercase tracking-widest mb-4">
             Platform
           </span>
-          <h2 className="text-[32px] md:text-[40px] font-bold text-white leading-tight tracking-tight mb-4 max-w-[560px]">
+          <h2 className="text-[32px] md:text-[40px] font-bold text-white leading-tight tracking-tight mb-4 max-w-140">
             {t("headline")}
           </h2>
-          <p className="text-[18px] text-[#a0a0a0] max-w-[480px]">
+          <p className="text-[18px] text-text-secondary max-w-120">
             {t("subheadline")}
           </p>
         </div>

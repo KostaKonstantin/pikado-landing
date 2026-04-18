@@ -10,9 +10,9 @@ interface SectionProps extends HTMLAttributes<HTMLElement> {
 }
 
 const bgClasses: Record<SectionBackground, string> = {
-  dark: "bg-[#0a0a0a]",
+  dark: "bg-dark-bg",
   darker: "bg-[#060606]",
-  accent: "bg-[#0a0a0a] border-t border-b border-[#1f1f1f]",
+  accent: "bg-dark-bg border-t border-b border-border",
 };
 
 export default function Section({

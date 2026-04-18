@@ -26,7 +26,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
 
   return (
     <html lang={locale} className="h-full">
-      <body className="min-h-full flex flex-col bg-[#0a0a0a] text-white antialiased">
+      <body className="min-h-full flex flex-col bg-dark-bg text-white antialiased">
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
