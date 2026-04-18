@@ -1,0 +1,20 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "demo": "Demo",
+    "pricing": "Pricing",
+    "contact": "Contact"
+  },
+  "hero": {
+    "headline": "Run your entire darts league from one place.",
+    "subheadline": "Pikado is the all-in-one platform for managing leagues, tournaments, and players.",
+    "cta": "Open Pikado App",
+    "secondary_cta": "Watch Demo"
+  },
+  "footer": {
+    "copyright": "© 2024 Pikado. All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  }
+}

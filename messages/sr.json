@@ -1,0 +1,20 @@
+{
+  "nav": {
+    "home": "Početna",
+    "features": "Mogućnosti",
+    "demo": "Demo",
+    "pricing": "Cene",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "headline": "Upravljaj celom pikado ligom na jednom mestu.",
+    "subheadline": "Pikado je sve-u-jednom platforma za upravljanje ligama, turnirima i igračima.",
+    "cta": "Otvori Pikado Aplikaciju",
+    "secondary_cta": "Pogledaj Demo"
+  },
+  "footer": {
+    "copyright": "© 2024 Pikado. Sva prava zadržana.",
+    "privacy": "Privatnost",
+    "terms": "Uslovi"
+  }
+}
